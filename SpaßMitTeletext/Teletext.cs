@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace SpaßMitTeletext
 {
-    class Program
+    class Teletext
     {
-        static void Main(string[] args)
-        {
-
-        }
+        private string Name;
     }
 }
