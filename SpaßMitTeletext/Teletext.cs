@@ -19,6 +19,7 @@ namespace SpaßMitTeletext
             this.Desc = desc;
             this.Nr = nr;
             this.Date = date;
+
         }
 
         public string Name1
