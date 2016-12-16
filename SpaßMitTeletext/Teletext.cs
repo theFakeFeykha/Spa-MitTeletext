@@ -8,11 +8,9 @@ namespace SpaßMitTeletext
 {
     class Teletext
     {
-        public enum NR {111, 222, 333, 444, 555 };
-
         private string Name;
         private string desc;
-        private NR nr;
+        private int nr;
         private DateTime date;
 
         public Teletext(string name, string desc, int nr, DateTime date)
@@ -49,7 +47,7 @@ namespace SpaßMitTeletext
             }
         }
 
-        public NR Nr
+        public int Nr
         {
             get
             {
